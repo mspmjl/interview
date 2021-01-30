@@ -14,6 +14,7 @@ class MyData {
 public class VolatileDemo {
 
     public static void main(String[] args) {
+
         MyData myData = new MyData();
         new Thread(() -> {
             myData.add();
